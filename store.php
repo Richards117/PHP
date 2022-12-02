@@ -6,10 +6,9 @@
         $titulo = $_POST['nombre'];
         $autor = $_POST['modelo'];
         $editorial = $_POST['marca'];
-        $tipo = $_POST['tipo'];
-        $formato = $_POST['formato'];
+       
 
-        $sql = "INSERT INTO datos (nombre, modelo, marca,tipo, formato) VALUES('$titulo', '$autor', '$editorial', '$tipo', '$formato')";
+        $sql = "INSERT INTO datos (nombre, modelo, marca,tipo, formato) VALUES('$nombre', '$modelo', '$marca'";
 
         $conn->exec($sql);
 

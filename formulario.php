@@ -37,33 +37,6 @@
                         <label for="marca" class="form-label">Marca</label>
                         <input type="text" name="marca" class="form-control"  placeholder="ej:Ford">
                     </div>
-                    <div class="mb-3">
-                        <label for="tipo" class="form-label">Tipo</label>
-                        <select class="form-select" name="tipo">
-                            <option selected value="Carro">Carro</option>
-                            <option value="Ford">Ford</option>
-                            <option value="Chevrolet">Chevrolet</option>
-                            <option value="Renault">Renault</option>
-                            <option value="Nissan">Nissan</option>
-                            <option value="BMW">BMW</option>
-                            <option value="Otro">Otro</option>
-                          </select>
-                    </div>
-                    <div class="mb-3">
-                       <p>Formato</p> 
-                        <div class="form-check">
-                            <input class="form-check-input" type="radio" name="formato" value="electronico" checked>
-                            <label class="form-check-label" for="formato">
-                              Gasolina
-                            </label>
-                          </div>
-                          <div class="form-check">
-                            <input class="form-check-input" type="radio" name="formato" value="fisico">
-                            <label class="form-check-label" for="formato">
-                              Disiel
-                            </label>
-                          </div>  
-                    </div>
 
                     <button type="submit" class="btn btn-primary">Enviar</button>
                     <a class="btn btn-link m-md-5" href="index.php" role="button">Regresar a pagina principal</a>

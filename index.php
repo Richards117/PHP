@@ -35,8 +35,6 @@
                     <th>Nombre</th>
                     <th>Modelo</th>
                     <th>Marca</th>
-                    <th>Tipo</th>
-                    <th>Formato</th>
                 </tr>
             </thead> 
 
@@ -52,8 +50,6 @@
                     <td><?php echo $row['nombre'] ?></td>
                     <td><?php echo $row['modelo'] ?></td>
                     <td><?php echo $row['marca'] ?></td>
-                    <td><?php echo $row['tipo'] ?></td>
-                    <td><?php echo $row['formato'] ?></td>
                 </tr>
                 <?php } ?>                
             </tbody>
